@@ -112,7 +112,7 @@ h3 {
     width:30%;
     position: relative;
 }
-button {
+.button1 {
     background-color: #9a04ad;
     border: none;
     box-shadow: 5px 10px #cecece;
@@ -138,7 +138,37 @@ button {
     display: grid;
     grid-template-areas: 'grid-item grid-item grid-item';
 }
-
+.footer {
+    display: flex;
+    width: 100%;
+}
+#footer-nav {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    padding-right: 20px;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-start;
+}
+#connect-icon {
+    width: 30px;
+    justify-content: flex-end;
+    position: relative;
+    vertical-align: middle;
+    padding: 10px;
+}
+.button2 {
+    margin: 0px;
+    padding: 10px;
+    background-color: lightblue;
+    vertical-align: middle;
+    height: 5vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    border: none;
+}
 @media only screen and (max-width: 600px) {
     body {
         display: flex;
